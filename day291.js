@@ -1,5 +1,5 @@
-let amount =prompt("Enter amount")
-if(amount.lenght<1 || isNaN(amount)){
+let amount = prompt("Enter amount")
+if(amount.length<1 || isNaN(amount)){
     alert("please provide proper input")
 }
 if(amount >500){

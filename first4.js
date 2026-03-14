@@ -1,4 +1,4 @@
-// date methods
+// // date methods
 // let date = new  Date();
 // console.log(date.getDate(), "todys date ")
 // console.log(date.getDay(), "Day start from 1")
@@ -41,10 +41,10 @@
 // console.log(10**5)
 // console.log(a*b)
 // console.log(a**b)
-let a = null
-let b = null
-console.log(a+b)
-console.log(a-b)
+// let a = null
+// let b = null
+// console.log(a+b)
+// console.log(a-b)
 // console.log(b/a)
 // console.log(b%a)
 // console.log(10**5)

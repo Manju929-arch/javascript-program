@@ -13,7 +13,7 @@
 // console.log(array.includes("bindu"))
 // console.log(array.includes("mrunal "))
 // indexof return the position of the element
-// console.log(array.indexOf("ravi"))
+console.log(array.indexOf("ravi"))
 // console.log(array.indexOf("manju"))
 // console.log(array.indexOf("bindu"))
 // console.log(array.indexOf("sagar"))

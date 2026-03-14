@@ -1,5 +1,6 @@
 // let x= [1,2,3,4,5,"ravi","hello","hi",6,7,"shastry",8,9,10]
 // let z= x.splice(0,5)
+// console.log(z)
 // let y = x.splice(1,4)
 // let u = x.splice(2,4)
 // let r = x[0].split('').join('').toUpperCase()
