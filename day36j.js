@@ -9,9 +9,9 @@
 
 
 let arr= ["ravi","shastruy","mrunal","thakur","a","b","c","d",1,2,3,4,"$" ,"#" , "%" ,"@" ]
-let word =[]
+// let word =[]
 let char  =[]
-let number =[]
+// let number =[]
 let special  =[]
 
 // for(let i =0;i<arr.length;i++){
@@ -33,17 +33,53 @@ let special  =[]
 // console.log(number)
 
 
-for(let i= 0 ;i<arr.length;i++){
+// for(let i= 0 ;i<arr.length;i++){
 
-    if(arr[i].length>1){
-        word.push(arr[i])
-    }
-    else if(typeof(arr[i])=="number"){
-        number.push(arr[i])
-    }
-    else if(typeof(arr[i])=="string" && arr[i].length==1){
+//     if(arr[i].length>1){
+//         word.push(arr[i])
+//     }
+//     else if(typeof(arr[i])=="number"){
+//         number.push(arr[i])
+//     }
+//     else if(typeof(arr[i])=="string" && arr[i].length==1){
         
-        if(arr[i].match(/[a-zA-Z]/))
+//         if(arr[i].match(/[a-zA-Z]/)){
+
+
+//         console.log(aar[i])
+//     }
+// }
+
+// }
+
+
+
+let word = [];
+let number = [];
+
+for (let i = 0; i < arr.length; i++) {
+
+    if (typeof arr[i] === "string" && arr[i].length > 1) {
+        word.push(arr[i])
+    } 
+    else if (typeof arr[i] === "number") {
+       
+       number.push(arr[i])
+    } 
+    else if (typeof arr[i] === "string" && arr[i].length === 1) {
+        if (/[a-zA-Z]/.test(arr[i])) {
+           char.push(arr[i]);
+        }
+
+    else{
+
+        special.push(arr[i])
     }
+    }
+
 }
 
+console.log(word)
+console.log(special)
+console.log(number)
+console.log(char)
