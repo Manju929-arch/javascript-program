@@ -106,12 +106,15 @@
 let a =121
 let prime = true
 for(let i=2;i<=Math.floor(Math.sqrt(a) ); i++){
-    if(a%i ==0){
+    if(a%i===0){
         console.log(i)
         prime =false
         break
     }
-    else{
+   
+}
+if(prime){
     console.log("prime no")
+
 }
-}
+
