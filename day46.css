@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    border: 5px solid blue;
+    width:fit-content;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    left: 450px;
+    border-radius: 10px;
+    top: 220px;
+    
+    
+button{
+    background-color: burlywood;
+    color: black;
+    border-radius: 5px;
+    font-size: 25px;
+    width: fit-content;
+    text-transform: capitalize;
+
+}
+}
