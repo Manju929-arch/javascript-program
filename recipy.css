@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+   
+}
+
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-bar a{
+    text-decoration: none;
+    border: 2px solid #007bff;
+    color: white;
+    background-color: #007bff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-bar a:hover{
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.nav-bar h1{
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+h5{
+    text-align: center;
+    font-size: 15px;
+}
+.card {
+    width: 320px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #e6d3b3;
+    box-sizing: border-box;
+    text-align: center;
+}
+.card p {
+    font-size: 14px;
+    line-height: 1.6;   /* 🔥 makes text readable */
+    margin: 10px 0;
+}
+.card p, .card h3 {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}

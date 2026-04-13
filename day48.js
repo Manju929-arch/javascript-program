@@ -20,11 +20,11 @@
 //     console.log(fd[0])
 // })
 
-let data2 = fetch("https://dummyjson.com/products").then((d)=>{
-        return(d.json())
+// let data2 = fetch("https://dummyjson.com/products").then((d)=>{
+//         return(d.json())
     
-}).then((fd)=>{
-    console.log(fd.products)
-})
+// }).then((fd)=>{
+//     console.log(fd.products)
+// })
 
 
