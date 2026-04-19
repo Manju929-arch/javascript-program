@@ -95,7 +95,7 @@ h5{
 }
 .card p {
     font-size: 14px;
-    line-height: 1.6;   /* 🔥 makes text readable */
+    line-height: 1.6;  
     margin: 10px 0;
 }
 .card p, .card h3 {
